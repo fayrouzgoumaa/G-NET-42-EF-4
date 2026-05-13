@@ -21,8 +21,8 @@ namespace G_NET_42_EF_4.Models
 
         public Branch Branch { get; set; }
 
-        public ICollection<Transaction> Transactions { get; set; }
-            = new List<Transaction>();
+        public ICollection<System.Transactions.Transaction> Transactions { get; set; }
+            = new List<System.Transactions.Transaction>();
 
         public ICollection<AccountCustomer> AccountCustomers { get; set; }
             = new List<AccountCustomer>();
